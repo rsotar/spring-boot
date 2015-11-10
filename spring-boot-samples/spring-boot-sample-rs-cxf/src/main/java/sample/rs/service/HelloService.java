@@ -33,7 +33,7 @@ public class HelloService {
     @Path("/txt/{a}")
     @Produces(MediaType.TEXT_PLAIN)
     public String sayHello(@PathParam("a") String a) {
-        return "Hello " + a + ", Welcome to CXF RS Spring Boot World!!!";
+        return "Holiiiss " + a + ", Welcome to CXF RS Spring Boot World!!!";
     }
 
 
@@ -41,6 +41,6 @@ public class HelloService {
     @Path("/json/{a}")
     @Produces(MediaType.APPLICATION_JSON)
     public String sayJsonHello(@PathParam("a") String a) {
-    	return "{hello='" + a + ", Welcome to CXF RS Spring Boot World!!!'}";
+    	return "{Holiiiss='" + a + ", Welcome to CXF RS Spring Boot World!!!'}";
     }
 }
